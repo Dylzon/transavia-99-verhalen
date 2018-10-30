@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,6 +41,8 @@
               <p><i class="fas fa-clock"></i>10 min</p>
             </footer>
           </a>
+          <button><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button><i class="fas fa-arrow-down"></i> Downloaden</button>
         </article>
 
         <article>
@@ -56,7 +58,7 @@
         </article>
 
         <article>
-          <a href="">
+          <a href="50-gefrustreerd.html">
           <img src="img/50.jpg" alt="50. Gefrustreerd">
             <footer>
               <h2>50. Gefrustreerd</h2>
@@ -69,7 +71,32 @@
     </section>
 
     <h1>Alle verhalen</h1>
-    <button><i class="fas fa-filter"></i>Filteren</button>
+    <button onclick="ShowHide()"><i class="fas fa-filter"></i>Filteren</button>
+    <form id="toggle" class="filter">
+                <fieldset>
+                    <legend>Sorteer op</legend>
+                    <label> Reacties <input name="sort" type="radio" checked="checked"> </label>
+                    <label> Aantal keer gelezen <input name="sort" type="radio"> </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Leestijd</legend>
+                    <label> 5 min <input type="checkbox"> </label>
+                    <label> 10 min <input type="checkbox"> </label>
+                    <label> 15 min <input type="checkbox"> </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Sfeer</legend>
+                    <label> Absurd <input type="checkbox"> </label>
+                    <label> Angstig <input type="checkbox"> </label>
+                    <label> Boos <input type="checkbox"> </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Visuele stijl</legend>
+                    <label> Abstract <input type="checkbox"> </label>
+                    <label> Geometrisch <input type="checkbox"> </label>
+                    <label> Minimalistisch <input type="checkbox"> </label>
+                </fieldset>
+      </form>
     <section>
         <article>
           <a href="">
@@ -148,5 +175,8 @@
   <footer>
     <p>&copy; 2018 Transavia. Alle rechten voorbehouden.</p>
   </footer>
+
+  <script src="js/script.js" charset="utf-8"></script>
+
 </body>
 </html>
