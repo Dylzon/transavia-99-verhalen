@@ -238,7 +238,6 @@ main.gefrustreerd img {
   background-color: #f7f7f7;
   border-radius: 1em;
   display: none;
-  transition: .5s;
 }
 
 .filter legend {

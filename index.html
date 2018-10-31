@@ -32,12 +32,26 @@
     <h1>Meest gelezen</h1>
     <section>
         <article>
-          <a href="">
-          <img src="img/header-week-39.jpg" alt="73. Stoned">
+          <a href="50-gefrustreerd.html">
+          <img src="img/50.jpg" alt="50. Gefrustreerd">
             <footer>
-              <h2>73. Stoned</h2>
+              <h2>50. Gefrustreerd</h2>
               <p><i class="fab fa-readme"></i>223x gelezen</p>
               <p><i class="fas fa-comments"></i>52 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>15 min</p>
+            </footer>
+          </a>
+          <button><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="">
+          <img src="img/08.jpg" alt="08. Twitter">
+            <footer>
+              <h2>08. Twitter</h2>
+              <p><i class="fab fa-readme"></i>106x gelezen</p>
+              <p><i class="fas fa-comments"></i>22 beoordelingen</p>
               <p><i class="fas fa-clock"></i>10 min</p>
             </footer>
           </a>
@@ -47,14 +61,115 @@
 
         <article>
           <a href="">
-          <img src="img/header-week-39.jpg" alt="60. Regionaal dagblad">
+          <img src="img/96.jpg" alt="96. Steenkolenfrans">
             <footer>
-              <h2>60. Regionaal dagblad</h2>
-              <p><i class="fab fa-readme"></i>223x gelezen</p>
-              <p><i class="fas fa-comments"></i>52 beoordelingen</p>
+              <h2>96. Steenkolenfrans</h2>
+              <p><i class="fab fa-readme"></i>90x gelezen</p>
+              <p><i class="fas fa-comments"></i>22 beoordelingen</p>
               <p><i class="fas fa-clock"></i>15 min</p>
             </footer>
           </a>
+          <button><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+    </section>
+
+    <h1>Alle verhalen</h1>
+    <button onclick="ShowHide()"><i class="fas fa-filter"></i>Filteren</button>
+    <form id="toggle" class="filter">
+      <fieldset>
+        <legend>Sorteer op</legend>
+        <label> Reacties <input name="sorteren" type="radio" checked="checked"> </label>
+        <label> Aantal keer gelezen <input name="sorteren" type="radio"> </label>
+      </fieldset>
+      <fieldset>
+        <legend>Leestijd</legend>
+        <label> 5 min <input type="checkbox"> </label>
+        <label> 10 min <input type="checkbox"> </label>
+        <label> 15 min <input type="checkbox"> </label>
+      </fieldset>
+      <fieldset>
+        <legend>Sfeer</legend>
+        <label> Absurd <input type="checkbox"> </label>
+        <label> Angstig <input type="checkbox"> </label>
+        <label> Boos <input type="checkbox"> </label>
+      </fieldset>
+      <fieldset>
+        <legend>Visuele stijl</legend>
+        <label> Abstract <input type="checkbox"> </label>
+        <label> Geometrisch <input type="checkbox"> </label>
+        <label> Minimalistisch <input type="checkbox"> </label>
+      </fieldset>
+    </form>
+    <section>
+        <article>
+          <a href="">
+          <img src="img/89.jpg" alt="89. Zombie">
+            <footer>
+              <h2>89. Zombie</h2>
+              <p><i class="fab fa-readme"></i>33x gelezen</p>
+              <p><i class="fas fa-comments"></i>2 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>10 min</p>
+            </footer>
+          </a>
+          <button><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="">
+          <img src="img/47.jpg" alt="47. Haiku">
+            <footer>
+              <h2>47. Haiku</h2>
+              <p><i class="fab fa-readme"></i>52x gelezen</p>
+              <p><i class="fas fa-comments"></i>7 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>5 min</p>
+            </footer>
+          </a>
+          <button><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="">
+          <img src="img/90.jpg" alt="90. Telegrafisch">
+            <footer>
+              <h2>90. Telegrafisch</h2>
+              <p><i class="fab fa-readme"></i>61x gelezen</p>
+              <p><i class="fas fa-comments"></i>4 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>10 min</p>
+            </footer>
+          </a>
+          <button><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="">
+          <img src="img/96.jpg" alt="96. Steenkolenfrans">
+            <footer>
+              <h2>96. Steenkolenfrans</h2>
+              <p><i class="fab fa-readme"></i>90x gelezen</p>
+              <p><i class="fas fa-comments"></i>22 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>15 min</p>
+            </footer>
+          </a>
+          <button><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="">
+          <img src="img/71.jpg" alt="71. Vrijdag de 13e">
+            <footer>
+              <h2>71. Vrijdag de 13e</h2>
+              <p><i class="fab fa-readme"></i>12x gelezen</p>
+              <p><i class="fas fa-comments"></i>0 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>10 min</p>
+            </footer>
+          </a>
+          <button><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button><i class="fas fa-arrow-down"></i> Downloaden</button>
         </article>
 
         <article>
@@ -64,110 +179,11 @@
               <h2>50. Gefrustreerd</h2>
               <p><i class="fab fa-readme"></i>223x gelezen</p>
               <p><i class="fas fa-comments"></i>52 beoordelingen</p>
-              <p><i class="fas fa-clock"></i>5 min</p>
+              <p><i class="fas fa-clock"></i>15 min</p>
             </footer>
           </a>
-        </article>
-    </section>
-
-    <h1>Alle verhalen</h1>
-    <button onclick="ShowHide()"><i class="fas fa-filter"></i>Filteren</button>
-    <form id="toggle" class="filter">
-                <fieldset>
-                    <legend>Sorteer op</legend>
-                    <label> Reacties <input name="sort" type="radio" checked="checked"> </label>
-                    <label> Aantal keer gelezen <input name="sort" type="radio"> </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Leestijd</legend>
-                    <label> 5 min <input type="checkbox"> </label>
-                    <label> 10 min <input type="checkbox"> </label>
-                    <label> 15 min <input type="checkbox"> </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Sfeer</legend>
-                    <label> Absurd <input type="checkbox"> </label>
-                    <label> Angstig <input type="checkbox"> </label>
-                    <label> Boos <input type="checkbox"> </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Visuele stijl</legend>
-                    <label> Abstract <input type="checkbox"> </label>
-                    <label> Geometrisch <input type="checkbox"> </label>
-                    <label> Minimalistisch <input type="checkbox"> </label>
-                </fieldset>
-      </form>
-    <section>
-        <article>
-          <a href="">
-          <img src="img/header-week-39.jpg" alt="Stijloefeningen (99) – Verrassing">
-            <footer>
-              <h2>Stijloefeningen (99) – Verrassing</h2>
-              <p><i class="fab fa-readme"></i>223x gelezen</p>
-              <p><i class="fas fa-comments"></i>52 beoordelingen</p>
-              <p><i class="fas fa-clock"></i>10 min</p>
-            </footer>
-          </a>
-        </article>
-
-        <article>
-          <a href="">
-          <img src="img/header-week-39.jpg" alt="Stijloefeningen (99) – Verrassing">
-            <footer>
-              <h2>Stijloefeningen (99) – Verrassing</h2>
-              <p><i class="fab fa-readme"></i>223x gelezen</p>
-              <p><i class="fas fa-comments"></i>52 beoordelingen</p>
-              <p><i class="fas fa-clock"></i>10 min</p>
-            </footer>
-          </a>
-        </article>
-
-        <article>
-          <a href="">
-          <img src="img/header-week-39.jpg" alt="Stijloefeningen (99) – Verrassing">
-            <footer>
-              <h2>Stijloefeningen (99) – Verrassing</h2>
-              <p><i class="fab fa-readme"></i>223x gelezen</p>
-              <p><i class="fas fa-comments"></i>52 beoordelingen</p>
-              <p><i class="fas fa-clock"></i>10 min</p>
-            </footer>
-          </a>
-        </article>
-
-        <article>
-          <a href="">
-          <img src="img/header-week-39.jpg" alt="Stijloefeningen (99) – Verrassing">
-            <footer>
-              <h2>Stijloefeningen (99) – Verrassing</h2>
-              <p><i class="fab fa-readme"></i>223x gelezen</p>
-              <p><i class="fas fa-comments"></i>52 beoordelingen</p>
-              <p><i class="fas fa-clock"></i>10 min</p>
-            </footer>
-          </a>
-        </article>
-
-        <article>
-          <a href="">
-          <img src="img/header-week-39.jpg" alt="Stijloefeningen (99) – Verrassing">
-            <footer>
-              <h2>Stijloefeningen (99) – Verrassing</h2>
-              <p><i class="fab fa-readme"></i>223x gelezen</p>
-              <p><i class="fas fa-comments"></i>52 beoordelingen</p>
-              <p><i class="fas fa-clock"></i>10 min</p>
-            </footer>
-          </a>
-        </article>
-
-        <article>
-          <a href="">
-          <img src="img/header-week-39.jpg" alt="Stijloefeningen (99) – Verrassing">
-            <footer>
-              <h2>Stijloefeningen (99) – Verrassing</h2>
-              <p><i class="fab fa-readme"></i>223x gelezen</p>
-              <p><i class="fas fa-comments"></i>52 beoordelingen</p>
-              <p><i class="fas fa-clock"></i>10 min</p>
-            </footer>
-          </a>
+          <button><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button><i class="fas fa-arrow-down"></i> Downloaden</button>
         </article>
     </section>
   </main>
