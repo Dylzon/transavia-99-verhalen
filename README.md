@@ -1,2 +1,2 @@
 # transavia-99-verhalen
-Opdracht 1 & 2 bestaande uit het coderen en het vormgeven van de overzichtspagina voor Transavia in HTML & CSS.
+Dit is de verhalen website van Transavia opgemaakt in HTML, CSS en een klein beetje Javascript voor sommige interactie elementen.
